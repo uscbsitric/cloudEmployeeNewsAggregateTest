@@ -1,0 +1,26 @@
+IMPORTANT: do not forget to run first "npm install" inside the root directory because the one I am sending does not
+           include the "node_modules" directory.  Right after running the "npm install" command initially, the 
+           "node_modules" directory gets populated and the entire dependencies and specifications of "package.json"
+           gets installed.
+
+Technical Requirements
+* Angular Version: 6.1.0
+* Angular CLI Version: 6.2.4
+* npm Version: 6.4.1
+* node Version: v10.10.0
+
+and checkout package.json for the complete list of library requirements and its dependencies (and their versions)
+
+How to build ("npm install" may be redundant but this makes sure that the contents of "package.json" gets installed)
+unzip cloudEmployeeNewsAggregate.zip
+in the terminal, "cd cloudEmployeeNewsAggregate.zip"
+run npm install 
+run "ng build --prod"
+
+How to run ("npm install" may be redundant but this makes sure that the contents of "package.json" gets installed)
+unzip cloudEmployeeNewsAggregate.zip
+in the terminal, "cd cloudEmployeeNewsAggregate.zip"
+run npm install
+run "npm start"
+open a chrome browser
+type in the address bar "http://localhost:4200"
